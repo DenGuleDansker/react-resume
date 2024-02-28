@@ -24,8 +24,7 @@ jobs:
 
     - name: Running the app in dev mode
       run: yarn start
-      description: |
-        To run the app in dev mode, use the command `yarn start` or `npm run start`
+
       
     - name: Build the site in the jekyll/builder container
       run: |
