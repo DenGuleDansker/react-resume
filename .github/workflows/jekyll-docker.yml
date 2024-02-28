@@ -17,9 +17,13 @@ jobs:
     - name: Install dependencies
       run: yarn install
 
+    - name: Edit Data.js with personal information
+      run: |
+        # Please edit the file Schemas/Data.js with your personal information
+        # nano Schemas/Data.js # Uncomment this line if you want to open the file in the terminal text editor
+
     - name: Running the app in dev mode
       run: npm run dev &
-
       
     - name: Build the site in the jekyll/builder container
       run: |
