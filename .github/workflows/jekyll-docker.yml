@@ -18,7 +18,7 @@ jobs:
       run: yarn install
 
     - name: Running the app in dev mode
-      run: npm run dev
+      run: npm run dev &
 
       
     - name: Build the site in the jekyll/builder container
