@@ -23,7 +23,7 @@ jobs:
         # nano Schemas/Data.js # Uncomment this line if you want to open the file in the terminal text editor
 
     - name: Running the app in dev mode
-      run: npm run dev
+      run: npm run build
 
       
     - name: Build the site in the jekyll/builder container
