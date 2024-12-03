@@ -7,6 +7,7 @@ import { Proyects } from "../Components/Proyects";
 import { Works } from "../Components/Works";
 import { SocialMedia } from "../Components/SocialMedia";
 import { AboutMe } from "../Components/AboutMe";
+import { References } from "../Components/References";
 import { Menu } from "../Components/Menu";
 import { SEO } from "../Components/SEO";
 
@@ -24,7 +25,7 @@ export const Resume = () => {
     return () => media.removeEventListener("change", listener);
   }, [matches]);
 
-  const { profile, aboutMe, skills, socialMedia, experience } = dataSchema;
+  const { profile, aboutMe, skills, socialMedia, experience, references} = dataSchema;
 
   return (
     <>
@@ -37,6 +38,7 @@ export const Resume = () => {
             <AboutMe {...aboutMe} />
             <Skills {...skills} />
             <SocialMedia {...socialMedia} />
+            <References {...references} />
           </div>
           <div className="resume__right">
             <Works {...experience} />

@@ -14,7 +14,15 @@ export const Proyects = ({ proyects }) => {
   );
 };
 
-const Proyect = ({ name, company, period, description }) => {
+const Proyect = ({
+  name,
+  company,
+  period,
+  description,
+  label,
+  url,
+  className,
+}) => {
   return (
     <div className="experience__content">
       <div className="experience__time">
@@ -26,7 +34,12 @@ const Proyect = ({ name, company, period, description }) => {
           {name} - {company}
         </h3>
         <span className="experience__proyect">{period}</span>
-        {description.map((desc, i) => <Description key={i} desc={desc} />)}
+        {description.map((desc, i) => (
+          <Description key={i} desc={desc} />
+        ))}
+        <a href={url} target="_blank" rel="noreferrer" className="social__link">
+          <i className={`bx ${className} social__icon`}></i> {label}
+        </a>
       </div>
     </div>
   );

@@ -13,7 +13,15 @@ export const Works = ({ works }) => {
   );
 };
 
-const Work = ({ title, period, company, description }) => {
+const Work = ({
+  title,
+  period,
+  company,
+  description,
+  label,
+  url,
+  className,
+}) => {
   return (
     <div className="experience__content">
       <div className="experience__time">
@@ -25,7 +33,12 @@ const Work = ({ title, period, company, description }) => {
         <span className="experience__company">
           {period} | {company}
         </span>
-        {description.map((desc,i) => <Description  key={i} desc={desc}/>)}
+        {description.map((desc, i) => (
+          <Description key={i} desc={desc} />
+        ))}
+        <a href={url} target="_blank" rel="noreferrer" className="social__link">
+          <i className={`bx ${className} social__icon`}></i> {label}
+        </a>
       </div>
     </div>
   );
