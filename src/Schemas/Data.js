@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "Profile",
     description:
-      "I'm a detail-oriented and responsible IT student with a deep passion for my work, particularly when it involves automation and operations. I'm committed to delivering top-notch results and continually strive to learn and grow. Most importantly, I value teamwork and recognize the significance of effective communication and collaboration.",
+      "I'm a detail-oriented and responsible IT student with a deep passion for my work. I'm committed to delivering top-notch results and continually strive to learn and grow. Most importantly, I value teamwork and recognize the significance of effective communication and collaboration.",
   },
   skills: {
     technicalLabel: "Technologies",
