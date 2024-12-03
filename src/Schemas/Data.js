@@ -77,10 +77,13 @@ export const Data = {
         description: [
           "I'm part of the IT team where I develop and maintain aparticipant management system designed to handle 1000+ users and PDF submissions."
         ],
+        label: "Recommendation letter",
+        url: "images/aarhussymposium.pdf",
+        className: "bx-download",
       },
       {
         title: "Aftersales operations staff",
-        period: "Aug. 2021 - Today",
+        period: "Aug. 2021 - Sep. 2024",
         company: "Elgiganten A/S",
         description: [
           "I handle tasks such as receiving and dispensing goods, cashier duties, follow-up on Click & Collect orders, handling complaints, managing service cases andtechnical inquiries, troubleshooting customers' IT equipment, and providing training.",
