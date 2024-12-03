@@ -77,7 +77,7 @@ export const Data = {
         description: [
           "I'm part of the IT team where I develop and maintain aparticipant management system designed to handle 1000+ users and PDF submissions."
         ],
-        label: "Recommendation letter",
+        label: "Diploma",
         url: "images/aarhussymposium.pdf",
         className: "bx-download",
       },
