@@ -105,7 +105,7 @@ export const Data = {
         description: [
           "The goal of the project in the first semester was to examine the rationale behind the choice of nuclear power in relation to the topics of climate and sustainability. Additionally, we were required to design and implement a specific data visualization as part of the project.",
         ],
-        label: "Datasvisualization - Link to Github",
+        label: "Datavisualization - Link to Github",
         url: "https://github.com/rasmusdyrby/projekt.gruppe8",
         className: "bx-link",
       },
