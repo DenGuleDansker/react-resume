@@ -30,5 +30,10 @@ export const Menu = {
       section: "#proyects",
       className: "bx-award",
     },
+    {
+      label: "Projects",
+      section: "#references",
+      className: "bx-happy",
+    },
   ],
 };
