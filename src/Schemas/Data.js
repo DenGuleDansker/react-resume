@@ -60,7 +60,7 @@ export const Data = {
     works: [
       {
         title: "Backend engineering intern",
-        period: "Dec. 2023 - Today",
+        period: "Aug. 2024 - Today",
         company: "IMPACT Commerce",
         description: [
           "At IMPACT Commerce, I worked daily on one of their major client projects, Verdo. My responsibilities included developing new features, refactoring, ensuring code coverage, writing integration tests, and handling various tasks related to their CMS. This project was my primary focus throughout my entire internship."
