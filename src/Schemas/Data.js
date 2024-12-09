@@ -92,7 +92,7 @@ export const Data = {
     ],
     academic: [
       {
-        career: "IT-Architecture",
+        career: "Bachelor of IT-Architecture",
         date: "Aug. 2022 - Jan. 2026",
         institution: "Erhvervsakademi Aarhus",
       },
