@@ -81,14 +81,6 @@ export const Data = {
         url: "images/aarhussymposium.pdf",
         className: "bx-download",
       },
-      {
-        title: "Aftersales operations staff",
-        period: "Aug. 2021 - Sep. 2024",
-        company: "Elgiganten A/S",
-        description: [
-          "I handle tasks such as receiving and dispensing goods, cashier duties, follow-up on Click & Collect orders, handling complaints, managing service cases andtechnical inquiries, troubleshooting customers' IT equipment, and providing training.",
-        ],
-      },
     ],
     academic: [
       {
