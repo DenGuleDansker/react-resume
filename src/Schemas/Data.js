@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: "Profile",
     description:
-      "I'm a detail-oriented and responsible IT student with a deep passion for my work, particularly when it involves automation and operations. I'm committed to delivering top-notch results and continually strive to learn and grow. Most importantly, I value teamwork and recognize the significance of effective communication and collaboration.",
+      "I'm a detail-oriented and responsible IT student with a deep passion for my work. I'm committed to delivering top-notch results and continually strive to learn and grow. Most importantly, I value teamwork and recognize the significance of effective communication and collaboration.",
   },
   skills: {
     technicalLabel: "Technologies",
@@ -52,7 +52,7 @@ export const Data = {
   references: {
     label: "references",
     name: "Anders Gissel @ IMPACT Commerce",
-    position: "Software Developer Manager",
+    position: "Software Development Manager",
     mail: "AGI@impactcommerce.com"
      
   },
@@ -60,7 +60,7 @@ export const Data = {
     works: [
       {
         title: "Backend engineering intern",
-        period: "Dec. 2023 - Today",
+        period: "Aug. 2024 - Today",
         company: "IMPACT Commerce",
         description: [
           "At IMPACT Commerce, I worked daily on one of their major client projects, Verdo. My responsibilities included developing new features, refactoring, ensuring code coverage, writing integration tests, and handling various tasks related to their CMS. This project was my primary focus throughout my entire internship."
@@ -77,10 +77,13 @@ export const Data = {
         description: [
           "I'm part of the IT team where I develop and maintain aparticipant management system designed to handle 1000+ users and PDF submissions."
         ],
+        label: "Diploma",
+        url: "images/aarhussymposium.pdf",
+        className: "bx-download",
       },
       {
         title: "Aftersales operations staff",
-        period: "Aug. 2021 - Today",
+        period: "Aug. 2021 - Sep. 2024",
         company: "Elgiganten A/S",
         description: [
           "I handle tasks such as receiving and dispensing goods, cashier duties, follow-up on Click & Collect orders, handling complaints, managing service cases andtechnical inquiries, troubleshooting customers' IT equipment, and providing training.",
