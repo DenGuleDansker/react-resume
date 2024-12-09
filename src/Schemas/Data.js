@@ -114,7 +114,7 @@ export const Data = {
         company: "Hobby project",
         period: "Dec. 2024  - 1 day",
         description: [
-          "This is a Movie Database application built with .NET 8 and Blazor. It fetches movie data from an external API from https://www.themoviedb.org/ and provides a user-friendly interface to browse, and manage a movie wishlist.",
+          "This is a Movie Database application. It fetches movie data from an external API from https://www.themoviedb.org/ and provides interface to browse, and manage a movie wishlist.",
         ],
         label: "MovieDB - Link to Github",
         url: "https://github.com/DenGuleDansker/MovieDatabase",
