@@ -112,7 +112,7 @@ export const Data = {
       {
         name: "MovieDB",
         company: "Hobby project",
-        period: "Nov. 2020 - 1 week",
+        period: "Dec. 2024  - 1 day",
         description: [
           "This is a Movie Database application built with .NET 8 and Blazor. It fetches movie data from an external API from https://www.themoviedb.org/ and provides a user-friendly interface to browse, and manage a movie wishlist.",
         ],
