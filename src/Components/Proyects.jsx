@@ -21,6 +21,9 @@ const Proyect = ({
   description,
   label,
   url,
+  siteurl,
+  sitelabel,
+  siteclassName,
   className,
 }) => {
   return (
@@ -39,6 +42,9 @@ const Proyect = ({
         ))}
         <a href={url} target="_blank" rel="noreferrer" className="social__link">
           <i className={`bx ${className} social__icon`}></i> {label}
+        </a>
+        <a href={siteurl} target="_blank" rel="noreferrer" className="social__link">
+          <i className={`bx ${siteclassName} social__icon`}></i> {sitelabel}
         </a>
       </div>
     </div>

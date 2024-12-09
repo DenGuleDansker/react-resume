@@ -96,17 +96,6 @@ export const Data = {
     ],
     proyects: [
       {
-        name: "Datavisualization",
-        company: "School project",
-        period: "Nov. 2023 - 1 month",
-        description: [
-          "The goal of the project in the first semester was to examine the rationale behind the choice of nuclear power in relation to the topics of climate and sustainability. Additionally, we were required to design and implement a specific data visualization as part of the project.",
-        ],
-        label: "Datasvisualization - Link to Github",
-        url: "https://github.com/rasmusdyrby/projekt.gruppe8",
-        className: "bx-link",
-      },
-      {
         name: "Festival Booking system",
         company: "School project",
         period: "Maj. 2023 - 1 month",
@@ -118,15 +107,18 @@ export const Data = {
         className: "bx-link",
       },
       {
-        name: "Creddit",
-        company: "School project",
+        name: "MovieDB",
+        company: "Hobby project",
         period: "Nov. 2020 - 1 week",
         description: [
-          "The purpose of this project is to implement a simple replica of Reddit. Users are able to create new threads, and other users can subsequently comment on these threads. Both for the threads and comments, users can add their votes.",          ,
+          "This is a Movie Database application built with .NET 8 and Blazor. It fetches movie data from an external API from https://www.themoviedb.org/ and provides a user-friendly interface to browse, and manage a movie wishlist.",
         ],
-        label: "Creddit - Link to Github",
-        url: "https://github.com/DenGuleDansker/RedditCopyCat",
+        label: "MovieDB - Link to Github",
+        url: "https://github.com/DenGuleDansker/MovieDatabase",
         className: "bx-link",
+        sitelabel: "MovieDB - Live site",
+        siteurl: "https://moviedatabase-t98s.onrender.com/",
+        siteclassName: "bx-globe",
       },
     ],
   },
