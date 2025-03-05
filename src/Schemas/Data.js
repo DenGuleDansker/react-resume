@@ -59,8 +59,15 @@ export const Data = {
   experience: {
     works: [
       {
+        title: "Student Developer",
+        period: "Feb. 2025 - Today",
+        company: "WEXO A/S",
+        description: [
+        ]
+      },
+      {
         title: "Backend engineering intern",
-        period: "Aug. 2024 - Today",
+        period: "Aug. 2024 - Jan. 2025",
         company: "IMPACT Commerce",
         description: [
           "At IMPACT Commerce, I worked daily on one of their major client projects, Verdo. My responsibilities included developing new features, refactoring, ensuring code coverage, writing integration tests, and handling various tasks related to their CMS. This project was my primary focus throughout my entire internship."
