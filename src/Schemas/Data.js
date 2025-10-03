@@ -49,13 +49,6 @@ export const Data = {
       },
     ],
   }, 
-  references: {
-    label: "references",
-    name: "Anders Gissel @ IMPACT Commerce",
-    position: "Software Development Manager",
-    mail: "AGI@impactcommerce.com"
-     
-  },
   experience: {
     works: [
       {
