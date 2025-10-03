@@ -59,11 +59,22 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "Student Developer",
-        period: "Feb. 2025 - Today",
-        company: "WEXO A/S",
+        title: "Junior IT-Developer",
+        period: "Aug. 2025 - Today",
+        company: "Dataminds A/S",
         description: [
         ]
+      },
+      {
+        title: "Student Developer",
+        period: "Feb. 2025 - Aug. 2025",
+        company: "WEXO A/S",
+        description: [
+          "As a student assistant at Wexo, I have, among other things, updated plugins in their Shopware system to ensure compatibility. I have also helped build an integration between AI and GitLab, where I use AI to perform code reviews on merge requests to optimize the time we spend reviewing."
+        ],
+        label: "Recommendation letter",
+        url: "images/wexo-recommendation.pdf",
+        className: "bx-download",
       },
       {
         title: "Backend engineering intern",
@@ -79,7 +90,7 @@ export const Data = {
       },
       {
         title: "IT Organiser - Software Developer",
-        period: "Dec. 2023 - Today",
+        period: "Dec. 2023 - Dec. 2024",
         company: "Aarhus Symposium",
         description: [
           "I'm part of the IT team where I develop and maintain aparticipant management system designed to handle 1000+ users and PDF submissions."
