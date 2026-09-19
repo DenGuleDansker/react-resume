@@ -52,7 +52,7 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "Junior IT-Developer",
+        title: "IT-Developer",
         period: "Aug. 2025 - Today",
         company: "Dataminds A/S",
         description: [
