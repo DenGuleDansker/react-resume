@@ -53,7 +53,14 @@ export const Data = {
     works: [
       {
         title: "IT-Developer",
-        period: "Aug. 2025 - Today",
+        period: "Feb. 2026 - Today",
+        company: "Dataminds A/S",
+        description: [
+        ]
+      },
+      {
+        title: "Junior IT-Developer",
+        period: "Aug. 2025 - Feb. 2026",
         company: "Dataminds A/S",
         description: [
         ]
